@@ -7,11 +7,11 @@ fi
 
 echo -n "Feedly's API token: "
 read token
-sed "s/TOKEN =/TOKEN = "\"$token\""/g" bin/feedly2s3.py
+sed -i "s/TOKEN =/TOKEN = "\"$token\""/g" bin/feedly2s3.py
 
 echo -n "AWS S3 bucket's name: "
 read s3name
-sed "s/BUCKET =/BUCKET = "\"$s3name\""/g" bin/feedly2s3.py
+sed -i "s/BUCKET =/BUCKET = "\"$s3name\""/g" bin/feedly2s3.py
 
 sudo pip install -r requirements.txt
 sudo mkdir -p /opt/bin/
