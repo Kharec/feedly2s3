@@ -13,8 +13,9 @@ $ pip install -r requirements.txt
 ~~~
 
 You're also gonna need :
-* the ARN of an IAM role which has `AmazonS3FullAccess` right
-* your AWS credentials up to date in `~/.aws/credentials`.
+* a IAM user which has `AmazonS3FullAccess` right
+* your AWS credentials up to date in `~/.aws/credentials`
+* a feedly developer token, which you can get [here](https://feedly.com/v3/auth/dev)
 
 You can create those two from [the AWS management console](https://console.aws.amazon.com).
 
