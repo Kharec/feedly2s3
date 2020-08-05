@@ -4,6 +4,7 @@ import requests
 import boto3
 from datetime import datetime
 from botocore.exceptions import ClientError as S3Error
+from os import remove as delete_file
 
 TOKEN = 
 BUCKET = 
@@ -26,6 +27,7 @@ class Feedly2S3(object):
            self.exporter.upload_file(self.filename, self.bucket, self.objectname)
         except S3Error as e:
            print(e)
+        delete_file(self.filename)
 
 if __name__ == '__main__':
     job = Feedly2S3()
