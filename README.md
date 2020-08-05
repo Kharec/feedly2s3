@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 ~~~
 
 You're also gonna need :
-* the ARN of an IAM role which has AmazonS3FullAccess right
+* the ARN of an IAM role which has `AmazonS3FullAccess` right
 * your AWS credentials up to date in `~/.aws/credentials`.
 
 You can create those two from [the AWS management console](https://console.aws.amazon.com).
