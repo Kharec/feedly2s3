@@ -17,7 +17,7 @@ You're also gonna need :
 * your AWS credentials up to date in `~/.aws/credentials`
 * a feedly developer token, which you can get [here](https://feedly.com/v3/auth/dev)
 
-You can do the whole "install" thing by `./install.sh` : it'll ask you for your Feedly's credentials and your S3 bucket name, and put the script in `/opt/bin` without the `.py` extension.
+Once you have those, you can do the whole "install" thing by `./install.sh` : it'll ask you for your Feedly's credentials and your S3 bucket name, and put the script in `/opt/bin` without the `.py` extension.
 
 ## How it works
 
