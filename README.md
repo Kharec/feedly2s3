@@ -22,7 +22,7 @@ You can do the whole "install" thing by `./install.sh` : it'll ask you for your 
 
 ## How it works
 
-In fact, `feedly2s3` uses the `requests` python module to call the Feedly's API with your token, more specificaly the `/v3/opml` route. Then, it uses `boto3` to upload it to your s3 bucket.
+In fact, `feedly2s3` uses the `requests` python module to call the Feedly's API with your token, more specificaly the `/v3/opml` route, and saves the content in a temporary file. Then, it uses `boto3` to upload it to your s3 bucket.
 
 Once it's installed, it runs with no arguments. You can call it like me, in a cron every 2 days:
 
