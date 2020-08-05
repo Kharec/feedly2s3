@@ -2,11 +2,11 @@
 
 ## What
 
-You know [Feedly](https://feedly.com) ? Good. `feedly2s3` uses the Feeldy's API to export an OPML file which contains the lists of your feedly's subscriptions, and uploads it to the S3 bucket of your choice. 
+You know [Feedly](https://feedly.com) ? Good. `feedly2s3` uses the Feedly's API to export an OPML file which contains the lists of your Feedly's subscriptions, and uploads it to the S3 bucket of your choice. 
 
 ## How
 
-It needs mainly `boto3` and `requests` python modules, which you can install with:
+It needs mainly `boto3` and `requests` python modules, which you can both install with:
 
 ~~~bash
 $ pip install -r requirements.txt
