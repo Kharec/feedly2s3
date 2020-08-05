@@ -1,6 +1,8 @@
 ## What
 
-You know [Feedly](https://feedly.com) ? Good. `feedly2s3` uses the Feedly's API to export an OPML file which contains the lists of your Feedly's subscriptions, and uploads it to the S3 bucket of your choice. 
+Do you know [Feedly](https://feedly.com) ? Good. And do you use it ? Better.
+
+`feedly2s3` uses the Feedly's API to export an OPML file which contains the lists of your Feedly's subscriptions, and uploads it to the S3 bucket of your choice. 
 
 ## Installation
 
