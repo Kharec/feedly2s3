@@ -17,8 +17,6 @@ You're also gonna need :
 * your AWS credentials up to date in `~/.aws/credentials`
 * a feedly developer token, which you can get [here](https://feedly.com/v3/auth/dev)
 
-You can create those two from [the AWS management console](https://console.aws.amazon.com).
-
 For the IAM role, go to [IAM](https://console.aws.amazon.com/iam/) > Roles > Create role > choose Transfer > Give AmazonS3FullAccess right > No tag > Give it a name > Create a role.
 
 You can do the whole "install" thing by `./install.sh` : it'll ask you for your Feedly's credentials and your S3 bucket name, and put the script in `/opt/bin` without the `.py` extension.
