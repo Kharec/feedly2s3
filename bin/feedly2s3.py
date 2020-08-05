@@ -5,11 +5,8 @@ import boto3
 from datetime import datetime
 from botocore.exceptions import ClientError as S3Error
 
-#TOKEN = "" # your feedly token
-#BUCKET = "" # your aws s3 bucket
-
-TOKEN = "A1Zpruh9VoMGTL0f6iZ1R4B8eVINNUkmJgbt2HwAenB4ZX5PRToyxmrd9TI4KJPAJwWA525_I2PiON7lHe0wkrKaZfyCMaihJ5iE6wKeO1mCCS5iHiuSJRA1GYIOgnnobdYpL3ryvtoG2wN-4-N2QSIZEosurDkKa0K2sg4GAra1KNK0rIHs8Anm3_mQKjicCxyjsBQm7xR00XxsI4GPLwbG8RnCwf4752dyFJew7tU_Dm2on6LHAVD2VCxn:feedlydev"
-BUCKET = "feedly2s3" # your aws s3 bucket
+TOKEN = 
+BUCKET = 
 
 class Feedly2S3(object):
     def __init__(self):
