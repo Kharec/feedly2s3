@@ -28,6 +28,8 @@ Once it's installed, it runs with no arguments. You can call it like me, in a cr
 0 6 * * 0,2,4,6 /opt/bin/feedly2s3
 ~~~
 
+And your subscriptions are safe !
+
 ## Licence & Copyright
 This software is copyright (c) 2020 by Sandro CAZZANIGA.
 
