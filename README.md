@@ -32,6 +32,6 @@ Once it's installed, it runs with no arguments. You can call it like me, in a cr
 Or you can just call it from time to time, as you wish.
 
 ## Licence & Copyright
-This software is copyright (c) 2020 by Sandro CAZZANIGA.
+This software is copyright (c) 2021 by Sandro CAZZANIGA.
 
 This is free software, you can use/redistribute it and/or modify it under the GNU GPLv3 terms.
